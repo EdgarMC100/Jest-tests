@@ -13,4 +13,8 @@ describe('Comprobaremos que existe un elemento', () => {
     test('Comprobaremos que existe un color', () => {
         expect(arrayColors()).toContain('azul')
     })
+
+    test('Comprobaremos que no existe un color', () => {
+        expect(arrayColors()).not.toContain('blue')
+    })
 });
