@@ -6,3 +6,4 @@ export const getDataFromApi = (url) => {
             return data
         })
 }
+// export const getDataFromApi = url => axios( url );
