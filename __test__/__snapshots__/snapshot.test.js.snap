@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Es hora de las instantaneas Deberia fallar la instantanea 1`] = `
+Object {
+  "createAt": 2021-07-22T15:07:01.508Z,
+  "id": 1,
+}
+`;
+
+exports[`Es hora de las instantaneas Should be a Snapshot 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "Human",
+  "status": "Dead",
+}
+`;
+
+exports[`Es hora de las instantaneas Should be have an exception inside the code 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "LeBron James",
+}
+`;
